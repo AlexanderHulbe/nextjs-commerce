@@ -1,0 +1,6 @@
+/pages/contact > /contact
+/pages/about > /about
+/pages/refund-policy > /refund-policy
+/pages/terms-of-service > /terms-of-service
+/pages/shipping-policy > /shipping-policy
+/pages/contact-information > /contact-information
