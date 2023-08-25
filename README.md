@@ -16,7 +16,7 @@ NEXT_PUBLIC_URL="[public url for frontend]"
 - install [Headless App](https://apps.shopify.com/headless)
 - install [Headless Theme](https://github.com/instantcommerce/shopify-headless-theme)
 - Add frontend domain to theme
-- copy custom routes from repo into Theme
+- copy [custom routes](https://github.com/AlexanderHulbe/nextjs-commerce/blob/main/app/%5Bpage%5D/custom%20redirects.txt) from repo into Theme
 - Add this Script to Settings => Checkout => Orderstatus page => Additional scripts
 
 ```html
