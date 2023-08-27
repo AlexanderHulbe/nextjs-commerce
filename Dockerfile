@@ -26,7 +26,11 @@ ENV SITE_NAME "ProfBoots Skidds"
 ENV SHOPIFY_REVALIDATION_SECRET "fec67abb-d21a-4c3e-bb2d-6f99571ca0e7"
 ENV SHOPIFY_STOREFRONT_ACCESS_TOKEN "dde8587acbeee05376e7303b0ada1fe0"
 ENV SHOPIFY_STORE_DOMAIN "https://test-profboots.myshopify.com"
+ENV NEXT_PUBLIC_URL "https://us4you.de"
+ENV NODE_ENV=development
 
 LABEL org.opencontainers.image.source = "https://github.com/AlexanderHulbe/nextjs-commerce"
 
-CMD ["npm", "start"]
+
+
+ENTRYPOINT npm start
